@@ -3,7 +3,7 @@ from typing import List
 from sqlalchemy import engine
 from sqlalchemy.orm import Session
 
-import dblotto
+from lib import dblotto
 
 
 class DBLogic:
